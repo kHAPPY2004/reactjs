@@ -1,11 +1,12 @@
-import React from "react";
+// import React from "react";
+import Navbar from "./components/Navbar";
+import { Form } from "./components/Form";
 import "./index.css";
 function App() {
   return (
     <>
-      <div className="container mx-auto bg-red-500 text-green-300">
-        Happy kamboj
-      </div>
+      <Navbar title="tailw" />
+      <Form heading="Hello there , Complete it .." />
     </>
   );
 }
